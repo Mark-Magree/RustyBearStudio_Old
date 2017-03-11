@@ -8,15 +8,17 @@
 	background-color: #AAAAAA;
 }
 
+.half {
+	width:50%;
+}
+
 #Gallery {
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
 	flex-wrap:wrap;
-}
-
-.half {
-	width:50%;
+	border-style:solid;
+	border-width:0px 1px 1px 0px;
 }
 
 div.display {
@@ -25,6 +27,7 @@ div.display {
 	align-items:center;
 	flex-direction:column;
 	border-style:solid;
+	border-width:1px 0px 0px 1px;
 	flex:1;
 	height:300px;
 }
@@ -34,9 +37,7 @@ div.display img {
 }
 
 div.display p {
-	background-color: gray;
 	display:block;
-	border-style:solid;
 	margin:0px;
 }
 
