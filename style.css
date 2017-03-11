@@ -5,7 +5,7 @@
 	flex-wrap:wrap;
 	margin:0px;
 	padding: 0% 5% 5% 5%;
-	background-color: #555555;
+	background-color: #AAAAAA;
 }
 
 #Gallery {
@@ -24,9 +24,9 @@ div.display {
 	justify-content:space-between;
 	align-items:center;
 	flex-direction:column;
+	border-style:solid;
 	flex:1;
 	height:300px;
-	padding: 20px 0 0 10px;
 }
 
 div.display img {
@@ -34,7 +34,9 @@ div.display img {
 }
 
 div.display p {
+	background-color: gray;
 	display:block;
+	border-style:solid;
 	margin:0px;
 }
 
@@ -43,6 +45,7 @@ h1 {
 	padding:0px;
 	margin:0px;
 	color: orange;
+	background-color: #AAAAAA;
 	text-align: center;
 	font-family: Free-Sans, Arial, Sans-Serif;
 	font-size: 7em;
@@ -72,6 +75,7 @@ ul.menu {
 	padding: 0px;
 	margin: 0px;
 	order:-1;
+	background-color:#AAAAAA;
 }
 
 ul.menu li {
